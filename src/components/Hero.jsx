@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="relative">
             <span className=" top-0 left-0">
               <img className="transform translate-x-16 sm:translate-x-36 md:translate-x-60 lg:translate-x-89 xl:translate-x-106 2xl:translate-x-140"
-              src="/assets/caduceo.webp" 
+              src="./assets/caduceo.webp" 
               alt="titule shop" 
               width={233} 
               height={43} />
@@ -21,7 +21,7 @@ const Hero = () => {
             flex-wrap text-center">
               <span className="">
                 <img className="transform -translate-x-2 sm:translate-x-0 md:translate-x-13 lg:translate-x-40 xl:translate-x-60 2xl:translate-x-90"
-                src="/assets/frase.webp" 
+                src="./assets/frase.webp" 
                 alt="titule shop" 
                 width={600} 
                 height={600} />
@@ -64,7 +64,7 @@ const Hero = () => {
         w-21 xl:w-60 lg:w-50 md:w-60 sm:w-20 h-33 z-100 pointer-none:"/>
 
         <figure className="relative rounded-xl overflow-hidden mt-10 md:mt-14 lg:mt[50px]">
-          <img src="/assets/hero-banner.webp" 
+          <img src="./assets/hero-banner.webp" 
           alt="hero-banner" 
           width={900}
           height={500}

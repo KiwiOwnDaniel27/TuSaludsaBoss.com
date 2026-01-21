@@ -12,10 +12,10 @@ const Header = () => {
     border-b-green-600">
 
         <a href="#">
-          <img className="logo max-lg:hidden" src="/assets/LOGO1.png" alt="logo" width={700} height={100}/>
+          <img className="logo max-lg:hidden" src="./assets/LOGO1.png" alt="logo" width={700} height={100}/>
         </a>
         <a href="#">
-          <img className="logo lg:hidden" src="/assets/LOGO2.png" alt="logo" width={700} height={100}/>
+          <img className="logo lg:hidden" src="./assets/LOGO2.png" alt="logo" width={700} height={100}/>
         </a>
 
         <nav className={`navbar ${isOpen ? "active" : " "}`}>
