@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import './index.css';
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
 import { BrowserRouter as Router } from "react-router-dom";
 
 import Header from './components/header';
@@ -11,6 +11,8 @@ import Planes from './components/Planes';
 import Testimonials from './components/Testimonials';
 import FaqSec from './components/FaqSec';
 import 'remixicon/fonts/remixicon.css';
+
+
 import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

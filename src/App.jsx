@@ -1,10 +1,11 @@
-import React from 'react';
 import Header from './components/header';
 import Hero from './components/Hero';
 import Benefits from './components/benefits';
 import Planes from './components/Planes';
 import Testimonials from './components/Testimonials';
 import FaqSec from './components/FaqSec';
+
+
 
 
 const App = () => {
