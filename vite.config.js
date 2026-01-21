@@ -5,5 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  homepage: "https://kiwiowndaniel27.github.io/TuSaludsaBoss.com",
+  base: "https://kiwiowndaniel27.github.io/TuSaludsaBoss.com/",
 })
