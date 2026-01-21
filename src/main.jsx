@@ -21,11 +21,6 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <div className='container max-auto px-4'>
         <App />
-        <Hero/>
-        <Benefits/>
-        <Planes/>
-        <Testimonials/>
-        <FaqSec/>
     </div>
   </StrictMode>,
 );
