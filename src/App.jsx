@@ -4,6 +4,7 @@ import Benefits from './components/benefits';
 import Planes from './components/Planes';
 import Testimonials from './components/Testimonials';
 import FaqSec from './components/FaqSec';
+import Footer from './components/Footer';
 
 
 
@@ -19,6 +20,7 @@ const App = () => {
           <Testimonials/>
           <FaqSec/>
      </main>
+     <Footer />
     </>
   )
 }

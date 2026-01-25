@@ -162,34 +162,33 @@ import {
   export const faqimgs = [
     {
       id: 1,
-      title: "Can I enroll in multiple planess at once?",
-      text: "Absolutely! You can enroll in multiple planess simultaneously and access them at your convenience.",
+      title: "¿Puedo contratar múltiples seguros médicos al mismo tiempo?",
+      text: "¡Sí! Puedes contratar varios seguros médicos simultáneamente y utilizarlos según tus necesidades y cobertura disponible.",
     },
     {
       id: 2,
-      title: "Enrollment Process for Different planess",
-      text: "Absolutely! You can enroll in multiple planess simultaneously and access them at your convenience.",
+      title: "Proceso de contratación para diferentes seguros médicos",
+      text: "La contratación es sencilla. Puedes adquirir distintos seguros médicos de forma independiente y gestionar cada uno por separado.",
     },
     {
       id: 3,
-      title: "What kind of support can I expect from instructors?",
-      text: "Absolutely! You can enroll in multiple planess simultaneously and access them at your convenience.",
+      title: "¿Qué tipo de soporte puedo esperar de mi aseguradora?",
+      text: "Las aseguradoras ofrecen atención al cliente, asesoría médica, y soporte para trámites como reembolsos, autorizaciones y emergencias.",
     },
     {
       id: 4,
-      title:
-        "Are the planess self-paced or do they have specific start and end dates?",
-      text: "Absolutely! You can enroll in multiple planess simultaneously and access them at your convenience.",
+      title: "¿Los seguros médicos tienen vigencia definida?",
+      text: "Sí, los seguros médicos cuentan con un periodo de vigencia específico, generalmente anual, con opción de renovación según las condiciones del contrato.",
     },
     {
       id: 5,
-      title: "Are there any prerequisites for the planess?",
-      text: "Absolutely! You can enroll in multiple planess simultaneously and access them at your convenience.",
+      title: "¿Existen requisitos o condiciones para contratar un seguro médico?",
+      text: "Algunos seguros pueden requerir información médica previa, evaluaciones de salud o cumplir con ciertos rangos de edad.",
     },
     {
       id: 6,
-      title: "Can I download the planes materials for offline access?",
-      text: "Absolutely! You can enroll in multiple planess simultaneously and access them at your convenience.",
+      title: "¿Puedo acceder a mi póliza y documentos del seguro de forma digital?",
+  text: "Sí, la mayoría de las aseguradoras permiten descargar pólizas, credenciales y documentos importantes para acceso digital u offline.",
     },
   ];
   
@@ -197,17 +196,17 @@ import {
     {
       id: 1,
       icon: RiPhoneFill,
-      label: "hello@skillbridge.com",
+      label: "daquiguango@espe.edu.ec",
     },
     {
       id: 2,
       icon: RiMailSendFill,
-      label: "+91 91813 23 2309",
+      label: "+593 984611893",
     },
     {
       id: 3,
       icon: RiUserLocationLine,
-      label: "Somewhere in the World",
+      label: "Ecuador en el mundo",
     },
   ];
   

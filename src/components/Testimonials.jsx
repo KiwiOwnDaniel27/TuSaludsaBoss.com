@@ -54,12 +54,12 @@ const Testimonials = () => {
 
         
         <div className="flex items-center justify-center mt-16 gap-9">
-            <button className="bg-green-300 w-15 h-15 flex items-center justify-center rounded-xl
-            hover:bg-green-100 transition-colors active:bg-green-100/40 prev-btn ">
+            <button className="bg-white w-15 h-15 flex items-center justify-center rounded-xl
+            hover:bg-green-200 transition-colors active:bg-green-100/40 prev-btn ">
                 <RiArrowLeftBoxFill size={60} color='purple'/>
             </button>
-            <button className="bg-green-300 w-15 h-15 flex items-center justify-center rounded-xl
-            hover:bg-green-100 transition-colors active:bg-green-100/40 next-btn">
+            <button className="bg-white w-15 h-15 flex items-center justify-center rounded-xl
+            hover:bg-green-200 transition-colors active:bg-green-100/40 next-btn">
                 <RiArrowRightBoxFill color='purple' size={60}/>
             </button>
         </div>
