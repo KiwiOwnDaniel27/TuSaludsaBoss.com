@@ -38,6 +38,13 @@ const Testimonials = () => {
             nextEl: '.next-btn'
         }}
 
+        autoplay={{
+            delay:3000,
+            pauseOnMouseEnter: true,
+            DisableOnInteraction: false,
+        }}
+        
+
         className="mt-14 lg:mt-16">
             {testimonialsimgs.map( item => (
                 <SwiperSlide key={item.id} className="bg-green-200 border-green-800 p-8 lg:p10 rounded-[10px] space-y-3 mt-9" >

@@ -215,19 +215,19 @@ import {
       id: 1,
       title: "Home",
       links: [
-        { label: "Benefits" },
-        { label: "Our planess" },
-        { label: "Our Testimonials" },
-        { label: "Our FAQ" },
+        { label: "Beneficios" },
+        { label: "Nuestros Planes" },
+        { label: "Testimonios" },
+        { label: "Preguntas Frecuentes" },
       ],
     },
     {
       id: 2,
-      title: "About Us",
+      title: "Sobre Nosotros",
       links: [
-        { label: "Company" },
-        { label: "Achievements" },
-        { label: "Our Goals" },
+        { label: "Compañia" },
+        { label: "Logros" },
+        { label: "Metas" },
       ],
     },
   ];
