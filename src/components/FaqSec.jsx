@@ -20,18 +20,21 @@ const FaqSec = () => {
         text='¿Aún tienes dudas sobre nuestros seguros médicos? Contacta a nuestro equipo a través de nuestro Whatsapp.' 
         link='Ver Todas las PF'/>
 
-        <div className="border border-purple-600 grid p-6">
+        <div className="grid rounded-lg items-center
+        sm:mx-auto sm:w-full
+        border-0 md:border md:border-purple-600
+        md:p-9 lg:p-9 xl:p-6 sm:w-full">
         {faqimgs.map(item => (
 
             <div className="space-y-3.5" key={item.id}>
 
                 <div className="flex items-center justify-between gap-12 border-b border-b-purple-600
-                pb-3 md:px-5">
-                    <h4 className="text:lg sm:text-xl">{item.title}</h4>
-                    <button className=" w-8 h-8 bg-orange-50 items-center justify-center aspect-square
-                    rounded-lg hover:bg-purple-600 transition-colors" 
+                pb-3 md:px-5 w-full">
+                    <h4 className="text-lg sm:text-xl">{item.title}</h4>
+                    <button className=" flex w-8 h-8 bg-orange-50 items-center justify-center aspect-square
+                    rounded-lg hover:bg-purple-600 transition-colors " 
                     onClick={() => handleClick(item.id)}>
-                       <RiAddLine className={`transition ${
+                       <RiAddLine className= {`transition ${
                         openId === item.id ? "rotate-45" : ""
                         }`} size={30} color='white' />
                     </button>

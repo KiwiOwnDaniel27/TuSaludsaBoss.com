@@ -48,14 +48,12 @@ const Footer = () => {
                             </button>
                         ))}
                     </div>
-                </div>
-
-
-                 <p className="mt-16 text-center lg:mt-20">&copy; {new Date().getFullYear()}
+                </div>    
+            </div>
+            <p className="mt-16 lg:mt-20 text-center">&copy; {new Date().getFullYear()}
                     TuSaludsaBoss <br />
                     Todos los derechos reservados
-                </p>       
-            </div>
+                </p>   
         </div>
     </footer>
   )
