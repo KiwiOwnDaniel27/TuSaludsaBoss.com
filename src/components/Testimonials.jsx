@@ -5,18 +5,22 @@ import { RiArrowLeftBoxFill, RiArrowLeftWideLine, RiArrowRightBoxFill, RiArrowRi
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
 import { Navigation, Autoplay } from 'swiper/modules';
+import { motion } from 'motion/react';
+import * as variants from '../motion/animation';
 
 
 const Testimonials = () => {
   return <section className="section">
 
-    <div className="container">
+    <motion.div variants={variants.staggerContainer} initial='hidden' whileInView='show'
+    viewport={{once: true}} className="container">
     
         <Titule 
         title='Testimonios de Nuestros Clientes' 
         text='Miles de personas confían en nosotros para cuidar su salud. Conoce las experiencias de quienes han recibido atención médica de calidad y respaldo en los momentos más importantes.'
         link='Atencíon y Sevicio al cliente 10/10'/>    
 
+        <motion.div variants={variants.fadeInUp}>
         <Swiper 
         modules={[Navigation, Autoplay]}
         spaceBetween={30}
@@ -58,9 +62,11 @@ const Testimonials = () => {
                 </SwiperSlide>
             ))}
         </Swiper>
+        </motion.div>
+       
 
         
-        <div className="flex items-center justify-center mt-16 gap-9">
+        <motion.div variants={variants.fadeInUp} className="flex items-center justify-center mt-16 gap-9">
             <button className="bg-white w-15 h-15 flex items-center justify-center rounded-xl
             hover:bg-green-200 transition-colors active:bg-green-100/40 prev-btn ">
                 <RiArrowLeftBoxFill size={60} color='purple'/>
@@ -69,8 +75,8 @@ const Testimonials = () => {
             hover:bg-green-200 transition-colors active:bg-green-100/40 next-btn">
                 <RiArrowRightBoxFill color='purple' size={60}/>
             </button>
-        </div>
-    </div>    
+        </motion.div>
+    </motion.div>    
   </section>
 }
 

@@ -1,14 +1,17 @@
 import React from 'react'
 import { contactInfo, footerLists, socialIcons } from '../constant/data';
+import { motion } from 'motion/react';
+import * as variants from '../motion/animation';
 
 const Footer = () => {
   return (
     <footer className="pt-14 pb-8">
-        <div className="container">
+        <motion.div variants={variants.staggerContainer} initial='hidden' whileInView='show'
+        viewport={{once: true}} className="container">
 
-            <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1fr_0.7fr_0.7fr_0.7fr]">
+            <motion.div variants={variants.fadeInUp} className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1fr_0.7fr_0.7fr_0.7fr]">
 
-                <div>
+                <motion.div variants={variants.fadeInUp}>
 
                     <div className="">
                         <img src="./assets/LOGO1.png" alt="foote logo" width={360} height={150} />    
@@ -23,10 +26,10 @@ const Footer = () => {
                             </a>
                         ))}
                     </div>
-                </div>
+                </motion.div>
 
                 {footerLists.map(item => (
-                    <div key={item.id} className="space-y-3">
+                    <motion.div variants={variants.fadeInUp} key={item.id} className="space-y-3">
                          <p>{item.title}</p>
 
                          <ul className="">
@@ -36,10 +39,10 @@ const Footer = () => {
                                 </li>
                             ))}
                          </ul>
-                    </div>
+                    </motion.div>
                 ))}
 
-                <div>
+                <motion.div variants={variants.fadeInUp}>
                     <p className="text-lg font-semibold">Social Perfiles</p>
                     <div className="flex mt-5 gap-3">
                         {socialIcons.map(({id, icon: Icon, url}) => (
@@ -53,13 +56,13 @@ const Footer = () => {
                     </a>
                     ))}
                 </div>
-                </div> 
-            </div>
-            <p className="mt-16 lg:mt-20 text-center">&copy; {new Date().getFullYear()}
+                </motion.div> 
+            </motion.div>
+            <motion.p variants={variants.fadeInUp} className="mt-16 lg:mt-20 text-center">&copy; {new Date().getFullYear()}
                     TuSaludsaBoss <br />
                     Todos los derechos reservados
-                </p>   
-        </div>
+            </motion.p>   
+        </motion.div>
     </footer>
   )
 }

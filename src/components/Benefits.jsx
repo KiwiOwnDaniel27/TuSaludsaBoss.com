@@ -2,11 +2,14 @@ import React from 'react'
 import Titule from './Titule';
 import { benefitimgs } from '../constant/data';
 import { RiArrowDownLine, RiArrowRightUpBoxLine } from '@remixicon/react';
+import { motion } from 'motion/react';
+import * as variants from '../motion/animation';
 
 const Benefits = () => {
   return <section className="section">
 
-    <div className="contanier" id="beneficios">
+    <motion.div variants={variants.staggerContainer} initial='hidden' whileInView='show'
+        viewport={{once: true}} className="contanier" id="beneficios">
         <Titule 
         title="Beneficios" 
         text='Ofrecemos planes diseñados para tu tranquilidad.
@@ -19,7 +22,7 @@ const Benefits = () => {
             {benefitimgs.map(item => (
 
 
-                <div className="bg-green-200 p-10 flex flex-col rounded-xl">
+                <motion.div variants={variants.fadeInUp} className="bg-green-200 p-10 flex flex-col rounded-xl">
 
                     <div className=" flex items-center justify-center mx-auto rounded-xl mb-8">
                         <img src={item.icon} alt={item.title} width={350} height={94} />
@@ -34,10 +37,10 @@ const Benefits = () => {
                     transition-colors hover:bg-green-400">
                         <RiArrowRightUpBoxLine size={39}/>
                     </button>
-                </div>
+                </motion.div>
             ))}
         </div>
-    </div>
+    </motion.div>
 
 
   </section>
