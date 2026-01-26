@@ -5,7 +5,7 @@ import { planesSecimgs } from '../constant/data';
 const Planes = () => {
   return <section>
 
-    <div className="container py-21">
+    <div className="container py-21" id="planess">
 
         <Titule title='Nuestros Planes de Salud' 
         text='Contamos con diferentes opciones de seguros médicos que brindan protección integral, desde consultas y estudios médicos hasta hospitalización y emergencias, garantizando el bienestar en cada etapa de tu vida.' 

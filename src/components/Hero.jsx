@@ -2,6 +2,7 @@ import React from 'react'
 import { heroLogos } from '../constant/data';
 import { RiPlayFill } from '@remixicon/react';
 import Marquee from 'react-fast-marquee';
+import { href } from 'react-router-dom';
 
 const Hero = () => {
   return <section>
@@ -40,8 +41,8 @@ const Hero = () => {
         <p className="text-center py-3 font-light " >Recibe atención médica de calidad y tranquilidad en todo momento.</p>
 
         <div className=" flex items-center justify-center gap-6 mt-11 flex-wrap">
-          <button className="primary-btn">Explorar Planes</button>
-          <button className="secundary-btn">Ver Beneficios</button>
+          <a href="#planess" className="primary-btn"> Explorar Planes</a>
+          <a href="#beneficios" className="secundary-btn">Ver Beneficios</a>
         </div>
 
         <div className="mt-8 lg:mt[100px] relative overflow-hidden">

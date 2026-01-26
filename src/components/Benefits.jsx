@@ -6,13 +6,13 @@ import { RiArrowDownLine, RiArrowRightUpBoxLine } from '@remixicon/react';
 const Benefits = () => {
   return <section className="section">
 
-    <div className="contanier">
+    <div className="contanier" id="beneficios">
         <Titule 
         title="Beneficios" 
         text='Ofrecemos planes diseñados para tu tranquilidad.
         Atención médica oportuna, acceso a una amplia red de especialistas, hospitales de primer 
         nivel y coberturas flexibles que se adaptan a tus necesidades y presupuesto.' 
-        link='Ver Todos'
+        link='10/10'
         />
 
         <div className="grid gap-9 md:grid-cols-2 lg:grid-cols-3 mt-12 lg:mt-16">
@@ -30,7 +30,7 @@ const Benefits = () => {
                         <p>{item.text}</p>
                     </div>
 
-                    <button className="mt-auto ml-auto w-13 h-13 flex items-center justify-center rounded-md text-purple-600
+                    <button className=" lg:hidden max-lg:hidden mt-auto ml-auto w-13 h-13 flex items-center justify-center rounded-md text-purple-600
                     transition-colors hover:bg-green-400">
                         <RiArrowRightUpBoxLine size={39}/>
                     </button>

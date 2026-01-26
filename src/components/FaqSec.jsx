@@ -18,7 +18,7 @@ const FaqSec = () => {
 
         <Titule title='Preguntas Frecuentes' 
         text='¿Aún tienes dudas sobre nuestros seguros médicos? Contacta a nuestro equipo a través de nuestro Whatsapp.' 
-        link='Ver Todas las PF'/>
+        link='Contáctanos'/>
 
         <div className="grid rounded-lg items-center
         sm:mx-auto sm:w-full

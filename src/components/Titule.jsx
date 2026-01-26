@@ -8,7 +8,7 @@ const Titule = ({title, text, link}) => {
             <p className="max-w-[640px] mt-4 mb-6" >{text}</p>
         </div>
 
-        <button className="secundary-btn">{link}</button>
+        <a href="https://wa.me/+593984611893" className="secundary-btn">{link}</a>
     </div>
   )
 }

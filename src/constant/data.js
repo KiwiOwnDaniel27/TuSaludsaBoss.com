@@ -5,7 +5,11 @@ import {
     RiFacebookBoxFill,
     RiTwitterFill,
     RiLinkedinFill,
+    RiTiktokFill,
+    RiWhatsappFill,
+    RiGithubFill,
   } from "@remixicon/react";
+  
   
   export const navItems = [
     {
@@ -101,7 +105,7 @@ import {
     {
       id: 1,
       img: "./assets/planes-1.webp",
-      title: "Seguro Individual: Experiencia Digital & Usabilidad",
+      title: "Seguro Individual: Tú Bienestar",
       text: "Este seguro está diseñado para brindar cobertura médica integral a una sola persona, enfocándose en el cuidado de la salud, la prevención y la atención oportuna. Garantiza respaldo ante enfermedades, accidentes y situaciones médicas imprevistas, promoviendo bienestar, tranquilidad y una mejor calidad de vida. Incluye planes de atención personalizados, servicios preventivos y soluciones médicas confiables para el cuidado continuo de la salud en todo momento.",
       instructor: "Protección Individual Especializada",
       tags: [{ tag: "Activación del Seguro:" }, { tag: "Inmediato, Nivel Nacional" }],
@@ -235,14 +239,17 @@ import {
   export const socialIcons = [
     {
       id: 1,
-      icon: RiFacebookBoxFill,
+      icon: RiTiktokFill,
+      url: "https://www.tiktok.com/@tu.saludboss.salu",
     },
     {
       id: 2,
-      icon: RiTwitterFill,
+      icon: RiLinkedinFill,
+      url: "https://www.linkedin.com/in/daniel-quiguango-53b52a262/",
     },
     {
       id: 3,
-      icon: RiLinkedinFill,
+      icon: RiGithubFill,
+      url: "https://kiwiowndaniel27.github.io/CV-DQ-React-TailwindCss/",
     },
   ];

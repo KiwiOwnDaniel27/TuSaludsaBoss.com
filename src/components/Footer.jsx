@@ -42,13 +42,18 @@ const Footer = () => {
                 <div>
                     <p className="text-lg font-semibold">Social Perfiles</p>
                     <div className="flex mt-5 gap-3">
-                        {socialIcons.map(icon => (
-                            <button className="primary-btn">
-                                <a href="#">{<icon.icon />}</a>
-                            </button>
-                        ))}
-                    </div>
-                </div>    
+                        {socialIcons.map(({id, icon: Icon, url}) => (
+                            <a
+                                key={id}
+                                href={url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="primary-btn flex items-center justify-center">               
+                                <Icon size={24} />
+                    </a>
+                    ))}
+                </div>
+                </div> 
             </div>
             <p className="mt-16 lg:mt-20 text-center">&copy; {new Date().getFullYear()}
                     TuSaludsaBoss <br />
