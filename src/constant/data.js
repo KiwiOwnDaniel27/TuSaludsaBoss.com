@@ -47,16 +47,51 @@ import {
     },
     {
       id: 2,
-      img: "./assets/logo-2.webp",
+      img: "./assets/logo-5.png",
       width: 132,
     },
     {
       id: 3,
-      img: "./assets/logo-3.webp",
+      img: "./assets/logo-6.png",
       width: 107,
     },
     {
       id: 4,
+      img: "./assets/logo-7.png",
+      width: 114,
+    },
+    {
+      id: 5,
+      img: "./assets/logo-8.png",
+      width: 114,
+    },
+    {
+      id: 6,
+      img: "./assets/logo-9.png",
+      width: 114,
+    },
+    {
+      id: 7,
+      img: "./assets/logo-10.png",
+      width: 114,
+    },
+    {
+      id: 8,
+      img: "./assets/logo-11.png",
+      width: 114,
+    },
+    {
+      id: 9,
+      img: "./assets/logo-12.png",
+      width: 114,
+    },
+    {
+      id: 10,
+      img: "./assets/logo-3.webp",
+      width: 114,
+    },
+    {
+      id: 11,
       img: "./assets/logo-4.webp",
       width: 114,
     },

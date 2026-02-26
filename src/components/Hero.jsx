@@ -16,7 +16,7 @@ const Hero = () => {
           
           <div className="relative">
             <motion.span variants={variants.fadeInUp} className=" top-0 left-0">
-              <img className="transform translate-x-16 sm:translate-x-36 md:translate-x-60 lg:translate-x-89 xl:translate-x-106 2xl:translate-x-140"
+              <img className="transform translate-x- sm:translate-x-36 md:translate-x-60 lg:translate-x-89 xl:translate-x-106 2xl:translate-x-140"
               src="./assets/caduceo.webp" 
               alt="titule shop" 
               width={233} 
