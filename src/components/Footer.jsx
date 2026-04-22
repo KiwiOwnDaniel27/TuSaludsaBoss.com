@@ -19,11 +19,11 @@ const Footer = () => {
 
                     <div className="mt-8 space-y-4">
                         {contactInfo.map(item => (
-                            <a href="#" key={item.id} className="flex items-center gap-1.5 hover:text-green-800
+                            <button href="#" key={item.id} className="flex items-center gap-1.5 hover:text-green-800
                             hover:underline transition-colors">
                                 {<item.icon />}
                                 {item.label}
-                            </a>
+                            </button>
                         ))}
                     </div>
                 </motion.div>
@@ -60,7 +60,8 @@ const Footer = () => {
             </motion.div>
             <motion.p variants={variants.fadeInUp} className="mt-16 lg:mt-20 text-center">&copy; {new Date().getFullYear()}
                     TuSaludsaBoss <br />
-                    Todos los derechos reservados
+                    Todos los derechos reservados. <br />
+                    DQ Company
             </motion.p>   
         </motion.div>
     </footer>

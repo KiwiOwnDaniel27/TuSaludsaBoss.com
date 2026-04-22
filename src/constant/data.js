@@ -235,12 +235,12 @@ import {
     {
       id: 1,
       icon: RiPhoneFill,
-      label: "daquiguango@espe.edu.ec",
+      label: "tusaludsaboss@gmail.com",
     },
     {
       id: 2,
       icon: RiMailSendFill,
-      label: "+593 984611893",
+      label: "+593 998141086",
     },
     {
       id: 3,

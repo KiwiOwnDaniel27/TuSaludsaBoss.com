@@ -26,7 +26,7 @@ const FaqSec = () => {
         <div className="grid rounded-lg items-center
         sm:mx-auto sm:w-full
         border-0 md:border md:border-purple-600
-        md:p-9 lg:p-9 xl:p-6 sm:w-full">
+        md:p-9 lg:p-9 xl:p-6 ">
         {faqimgs.map(item => (
 
             <motion.div variants={variants.fadeInUp} className="space-y-3.5" key={item.id}>

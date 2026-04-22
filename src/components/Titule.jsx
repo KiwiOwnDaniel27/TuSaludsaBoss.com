@@ -7,10 +7,10 @@ const Titule = ({title, text, link}) => {
     <div  className="flex items-center justify-between flex-wrap gap-4">
         <div>
             <motion.h2 variants={variants.fadeInUp}>{title}</motion.h2>
-            <motion.p variants={variants.fadeInUp} className="max-w-[640px] mt-4 mb-6" >{text}</motion.p>
+            <motion.p variants={variants.fadeInUp} className="max-w-[640] mt-4 mb-6" >{text}</motion.p>
         </div>
 
-        <motion.a variants={variants.fadeInUp} href="https://wa.me/+593984611893" className="secundary-btn">{link}</motion.a>
+        <motion.a variants={variants.fadeInUp} href="https://wa.me/+593998141086" className="secundary-btn">{link}</motion.a>
     </div>
   )
 }
