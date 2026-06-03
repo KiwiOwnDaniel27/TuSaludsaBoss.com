@@ -240,7 +240,7 @@ import {
     {
       id: 2,
       icon: RiMailSendFill,
-      label: "+593 998141086",
+      label: "+593 984611893",
     },
     {
       id: 3,
